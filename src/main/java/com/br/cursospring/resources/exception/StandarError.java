@@ -2,11 +2,15 @@ package com.br.cursospring.resources.exception;
 
 import java.io.Serializable;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 public class StandarError implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private Integer status;
 	private String msg;
+	
+	@JsonFormat(pattern="dd/MM/yyyy HH:mm")
 	private Long timeStamp;
 	public StandarError(Integer status, String msg, Long timeStamp) {
 		super();
