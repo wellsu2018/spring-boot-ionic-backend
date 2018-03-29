@@ -13,7 +13,7 @@ public class EstadoService {
     @Autowired
 	private EstadoRepository repo;
 	
-	public Estado buscar(Integer id) {
+	public Estado find(Integer id) {
 		Estado obj = repo.findOne(id);
 		if (obj == null) {
 			throw new ObjectNotFoundException("Objeto não encontrado! Id: "+ id +", Tipo: "+ Estado.class.getName());
