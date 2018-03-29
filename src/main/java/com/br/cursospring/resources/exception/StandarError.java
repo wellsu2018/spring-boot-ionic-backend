@@ -10,7 +10,7 @@ public class StandarError implements Serializable {
 	private Integer status;
 	private String msg;
 	
-	@JsonFormat(pattern="dd/MM/yyyy HH:mm")
+	@JsonFormat(pattern="HH:mm:ss")
 	private Long timeStamp;
 	public StandarError(Integer status, String msg, Long timeStamp) {
 		super();
