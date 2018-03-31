@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.br.cursospring.DTO.CategoriaDTO;
 import com.br.cursospring.domain.Categoria;
+import com.br.cursospring.dto.CategoriaDTO;
 import com.br.cursospring.services.CategoriaService;
 
 @RestController

@@ -1,4 +1,4 @@
-package com.br.cursospring.DTO;
+package com.br.cursospring.dto;
 
 import java.io.Serializable;
 

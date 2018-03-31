@@ -9,8 +9,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
-import com.br.cursospring.DTO.CategoriaDTO;
 import com.br.cursospring.domain.Categoria;
+import com.br.cursospring.dto.CategoriaDTO;
 import com.br.cursospring.repositories.CategoriaRepository;
 import com.br.cursospring.services.exceptions.DataIntegrityException;
 import com.br.cursospring.services.exceptions.ObjectNotFoundException;
